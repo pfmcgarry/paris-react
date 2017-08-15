@@ -1,0 +1,25 @@
+.google-badge {
+	width: 10rem;
+}
+
+.home-content {
+	/*background-color: white;*/
+
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.app-box {
+	background-color: #6D3ACB;
+
+	margin-left: auto;
+	margin-right: auto;
+	padding :1rem;
+	border-radius : 30px;
+}
+
+#hero img {
+	width : 100vw;
+	background-color: #4109a5;
+	max-height: 100%;
+}

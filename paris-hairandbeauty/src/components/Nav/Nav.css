@@ -1,0 +1,86 @@
+.nav {
+	display : flex;
+	flex-direction: column;
+	align-content: space-around;
+	justify-content: space-around;
+	max-height: 70vh;
+}
+
+.nav-item {
+	display: flex;
+	flex : 1 1 500px;
+	/*background-color: #4109a5;*/
+}
+
+#home {
+
+	border-top: 1px solid white;
+}
+
+.nav-item a {
+	border-bottom : 1px solid white;
+	display : flex;
+	align-items : center;
+	justify-content: space-between;
+	flex : 1 1 500px;
+	color: white;
+}
+
+.menu-button {
+	width: 1rem;
+	padding-left: 0.3rem;
+}
+
+.menu-button-overlay {
+	width: 1rem;
+	padding-top: .3rem;
+}
+
+.top-drawer-item {
+
+	border-bottom: 1px solid red;
+}
+
+.nav-icon {
+	width: 1.5rem;
+	padding-left: 1rem;
+}
+
+.nav-arrow {
+	width: 1rem;
+}
+
+.nav-label {
+	text-transform: capitalize;
+}
+
+.headline {
+	font-family: "Great Vibes";
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 1rem;
+	text-align: center;
+	color: white;
+	background-image: linear-gradient(#4109a5, #6D3ACB);
+}
+
+
+
+.nav-drawer {
+	padding-bottom : .2rem;
+	padding-top: .2rem;
+	border-bottom: 1px solid white;
+	
+	background-color: #4109a5;
+}
+.nav-drawer-title {
+	font-family: "Great Vibes";
+	padding-left: 2rem;
+	font-size: 1.5rem;
+
+}
+
+.nav-horizontal {
+  background-color: #4109a5;
+  height : 0.4rem;
+}
